@@ -1,0 +1,157 @@
+
+====================================================================================================
+ANÁLISIS EXHAUSTIVO FINAL - MAPEO COMPLETO
+====================================================================================================
+
+====================================================================================================
+1. FVG vs SR_Historical - TODAS LAS SESIONES
+====================================================================================================
+
+V1.5 - GLOBAL:
+----------------------------------------------------------------------------------------------------
+FVG                     314 trades,   20.1% WR,   -21.82 pips
+SR_Historical           156 trades,   20.5% WR,    10.77 pips
+SR_2ndTouch             171 trades,   18.1% WR,   -31.27 pips
+Session_Low              65 trades,   23.1% WR,    -6.31 pips
+Session_High             39 trades,   23.1% WR,    -5.47 pips
+
+V1.7 - GLOBAL:
+----------------------------------------------------------------------------------------------------
+FVG                      82 trades,    7.3% WR,    -8.86 pips
+SR_Historical            37 trades,   13.5% WR,    17.98 pips
+
+====================================================================================================
+2. FVG vs SR_Historical - POR SESIÓN
+====================================================================================================
+
+
+London:
+----------------------------------------------------------------------------------------------------
+SignalType            V1.5 Trades   V1.5 WR%  V1.5 Pips  V1.7 Trades   V1.7 WR%  V1.7 Pips
+----------------------------------------------------------------------------------------------------
+FVG                            79       22.8      -7.37           72        6.9     -18.75
+SR_Historical                  30       20.0      13.36           32       12.5      13.84
+SR_2ndTouch                    19       15.8      -3.71            0        0.0       0.00
+Session_Low                    18       22.2       7.04            0        0.0       0.00
+Session_High                    5       40.0      -0.00            0        0.0       0.00
+
+NY_AM:
+----------------------------------------------------------------------------------------------------
+SignalType            V1.5 Trades   V1.5 WR%  V1.5 Pips  V1.7 Trades   V1.7 WR%  V1.7 Pips
+----------------------------------------------------------------------------------------------------
+FVG                            56       19.6       8.19           10       10.0       9.89
+SR_Historical                  15       40.0       4.58            5       20.0       4.14
+SR_2ndTouch                    28       10.7      -7.74            0        0.0       0.00
+Session_Low                    29       24.1      -8.78            0        0.0       0.00
+Session_High                   10       20.0      -2.36            0        0.0       0.00
+
+====================================================================================================
+3. LONDON 10h GMT - DESGLOSE POR MINUTO
+====================================================================================================
+
+V1.5 10h - Top minutos:
+----------------------------------------------------------------------------------------------------
+  Minuto 01: 7 trades, -1.42 pips, avg -0.20
+  Minuto 46: 6 trades, +8.09 pips, avg +1.35
+  Minuto 31: 5 trades, -1.91 pips, avg -0.38
+  Minuto 16: 4 trades, -1.68 pips, avg -0.42
+  Minuto 18: 2 trades, -1.05 pips, avg -0.53
+  Minuto 47: 2 trades, -0.60 pips, avg -0.30
+  Minuto 02: 1 trades, -0.49 pips, avg -0.49
+  Minuto 04: 1 trades, -0.16 pips, avg -0.16
+  Minuto 32: 1 trades, -0.89 pips, avg -0.89
+
+V1.7 10h - Top minutos:
+----------------------------------------------------------------------------------------------------
+  Minuto 01: 7 trades, -4.45 pips, avg -0.64
+  Minuto 31: 6 trades, -2.21 pips, avg -0.37
+  Minuto 46: 6 trades, +2.93 pips, avg +0.49
+  Minuto 16: 4 trades, -1.68 pips, avg -0.42
+  Minuto 18: 2 trades, -1.05 pips, avg -0.53
+  Minuto 02: 1 trades, -0.49 pips, avg -0.49
+  Minuto 04: 1 trades, -0.16 pips, avg -0.16
+  Minuto 17: 1 trades, -0.83 pips, avg -0.83
+  Minuto 32: 1 trades, -0.89 pips, avg -0.89
+  Minuto 47: 1 trades, -0.34 pips, avg -0.34
+
+V1.7 10h - Por SignalType:
+----------------------------------------------------------------------------------------------------
+FVG: 23 trades, -10.12 pips
+SR_Historical: 7 trades, 0.95 pips
+
+====================================================================================================
+4. SESSION_LOW/HIGH - ANÁLISIS V1.5
+====================================================================================================
+
+Session_Low - Por sesión:
+----------------------------------------------------------------------------------------------------
+London: 18 trades, 22.2% WR, +7.04 pips
+NY_AM: 29 trades, 24.1% WR, -8.78 pips
+
+Session_High - Por sesión:
+----------------------------------------------------------------------------------------------------
+London: 5 trades, 40.0% WR, -0.00 pips
+NY_AM: 10 trades, 20.0% WR, -2.36 pips
+
+====================================================================================================
+5. SIMULACIONES - ESCENARIOS OPTIMIZADOS
+====================================================================================================
+
+ESCENARIO 1: London solo SR_Historical + NY_AM completo
+----------------------------------------------------------------------------------------------------
+London SR_Historical: 32 trades, +13.84 pips
+NY_AM (todas señales): 15 trades, +14.03 pips
+TOTAL: 47 trades, +27.87 pips
+
+ESCENARIO 2: London solo 08h+11h (todas señales) + NY_AM
+----------------------------------------------------------------------------------------------------
+London 08h+11h: 74 trades, +4.26 pips
+NY_AM: 15 trades, +14.03 pips
+TOTAL: 89 trades, +18.29 pips
+
+ESCENARIO 3: London SR_Historical en 08h+11h + NY_AM
+----------------------------------------------------------------------------------------------------
+London SR_Historical 08h+11h: 25 trades, +12.89 pips
+NY_AM: 15 trades, +14.03 pips
+TOTAL: 40 trades, +26.92 pips
+
+ESCENARIO 4: Si tuviéramos Session_Low/High (basado en V1.5)
+----------------------------------------------------------------------------------------------------
+London actual V1.7: 104 trades, -4.91 pips
+London Session_Low (V1.5 tenía): 18 trades, +7.04 pips
+Potencial si agregamos Session_Low: ~+2.13 pips
+
+====================================================================================================
+🎯 RECOMENDACIONES BASADAS EN DATOS
+====================================================================================================
+
+HALLAZGOS CRÍTICOS:
+----------------------------------------------------------------------------------------------------
+1. FVG es PERDEDOR en London (-18.75 pips en V1.7)
+2. SR_Historical es GANADOR en London (+13.84 pips en V1.7)
+3. Hora 10h GMT DESTRUYE London (-9.17 pips)
+4. Session_Low era GANADOR en V1.5 London (+7.04 pips)
+
+MEJOR ESCENARIO (basado en datos):
+----------------------------------------------------------------------------------------------------
+✓ London: Solo SR_Historical en 08h+11h GMT
+  25 trades, +12.89 pips
+✓ NY_AM: Todas señales (FVG + SR_Historical)
+  15 trades, +14.03 pips
+✓ TOTAL PROYECTADO: 40 trades, +26.92 pips
+
+IMPLEMENTACIÓN V1.8:
+----------------------------------------------------------------------------------------------------
+1. London:
+   - Horas: Solo 08h y 11h GMT (eliminar 10h)
+   - Señales: Solo SR_Historical (eliminar FVG)
+   - Mecha: Sin filtro (permitir todas)
+
+2. NY_AM:
+   - Horas: 13-17 GMT (mantener)
+   - Señales: FVG + SR_Historical (mantener)
+   - Mecha: 2.6-3.5 pips (mantener)
+
+3. OPCIONAL: Reactivar Session_Low
+   - Potencial adicional: +7 pips
+   - Requiere desarrollo código
